@@ -90,17 +90,17 @@ public class CourseController {
     }
 
     //assignment
-    @Operation(summary = "update the course in system")
-    @PutMapping("/{courseId}")
-    public ServiceResponse<CourseResponseDTO> updateCourse(@PathVariable int courseId, @RequestBody CourseRequestDTO courseRequestDTO) {
-        //validate request
-        // validateRequestPayload(courseRequestDTO);
-        log.info("CourseController:updateCourse Request payload : {} and {}", AppUtils.convertObjectToJson(courseRequestDTO), courseId);
-        CourseResponseDTO courseResponseDTO = courseService.updateCourse(courseId, courseRequestDTO);
-        ServiceResponse<CourseResponseDTO> response = new ServiceResponse<>(HttpStatus.OK, courseResponseDTO);
-        log.info("CourseController:updateCourse response body : {}", AppUtils.convertObjectToJson(response));
-        return response;
-    }
+    // @Operation(summary = "update the course in system")
+    // @PutMapping("/{courseId}")
+    // public ServiceResponse<CourseResponseDTO> updateCourse(@PathVariable int courseId, @RequestBody CourseRequestDTO courseRequestDTO) {
+    //     //validate request
+    //     // validateRequestPayload(courseRequestDTO);
+    //     log.info("CourseController:updateCourse Request payload : {} and {}", AppUtils.convertObjectToJson(courseRequestDTO), courseId);
+    //     CourseResponseDTO courseResponseDTO = courseService.updateCourse(courseId, courseRequestDTO);
+    //     ServiceResponse<CourseResponseDTO> response = new ServiceResponse<>(HttpStatus.OK, courseResponseDTO);
+    //     log.info("CourseController:updateCourse response body : {}", AppUtils.convertObjectToJson(response));
+    //     return response;
+    // }
 
 
     private void validateRequestPayload(CourseRequestDTO courseRequestDTO) {
