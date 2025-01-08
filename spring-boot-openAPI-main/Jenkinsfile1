@@ -6,11 +6,11 @@ pipeline {
     }
 
     stages {
-        stage('git clone') {
-            steps {
-                git branch: 'main', url: 'https://github.com/Surajr123/Jenkin-CI-CD-Pipeline.git'
-            }
-        }
+     //   stage('git clone') {
+   //         steps {
+   //             git branch: 'main', url: 'https://github.com/Surajr123/Jenkin-CI-CD-Pipeline.git'
+   //         }
+   //     }
         
          stage('mvn bulid') {
             steps {
