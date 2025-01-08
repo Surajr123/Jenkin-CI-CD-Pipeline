@@ -26,11 +26,11 @@ public class CourseController {
     //Logger log = LoggerFactory.getLogger(CourseController.class);
 
 
-    private CourseService courseService;
+    // private CourseService courseService;
 
-    public CourseController(CourseService courseService) {
-        this.courseService = courseService;
-    }
+    // public CourseController(CourseService courseService) {
+    //     this.courseService = courseService;
+    // }
 
 
     @Operation(summary = "add a new course to the system")
