@@ -101,8 +101,9 @@ post {
                     </body>
                 </html>
             """,
-            to: 'sfasfa@gmail.com',
-            from: 'wqrq2@gmail.com',
+            to: 'surajr9964@gmail.com',
+            from: 'surajxworkz@gmail.com',
+            replyTo: 'surajxworkz@gmail.com',
             mimeType: 'text/html',
             attachmentsPattern: 'a.txt'
         )
