@@ -63,11 +63,11 @@ public class CourseService {
     }
 
     //filter course by course id //GET
-    // public CourseResponseDTO findByCourseId(Integer courseId) {
-    //     CourseEntity courseEntity = courseDao.findById(courseId)
-    //             .orElseThrow(() -> new CourseServiceBusinessException(courseId + " doesn't exist in system"));
-    //     return AppUtils.mapEntityToDTO(courseEntity);
-    // }
+    public CourseResponseDTO findByCourseId(Integer courseId) {
+        CourseEntity courseEntity = courseDao.findById(courseId)
+                .orElseThrow(() -> new CourseServiceBusinessException(courseId + " doesn't exist in system"));
+        return AppUtils.mapEntityToDTO(courseEntity);
+    }
 
     //delete course  //DELETE
     public void deleteCourse(int courseId) {
