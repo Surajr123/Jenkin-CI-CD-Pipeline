@@ -74,7 +74,7 @@ pipeline {
                   """,
                 // from: 'surajxworkz@gmail.com',
                 // replyTo: 'surajxworkz@gmail.com',
-                to: 'surajr9964@gmail.com,
+                to: 'surajr9964@gmail.com',
                 mimeType: 'text/html',
                 attachmentsPattern: 'a.txt'
       }
