@@ -21,11 +21,11 @@ public class CourseEntity {
     private String trainerName;
     private String duration;
     private Date startDate;
-    private String courseType;
-    private double fees;
-    private boolean isCertificateAvailable;
-    private String description;
-    private String emailId;
-    private String contact;
+    // private String courseType;
+    // private double fees;
+    // private boolean isCertificateAvailable;
+    // private String description;
+    // private String emailId;
+    // private String contact;
 
 }
