@@ -13,6 +13,7 @@ public class CourseServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CourseServiceApplication.class, args);
+		System.out.println("Jenkin CI-CD Pipeline working along with email to...!");
 	}
 
 }
